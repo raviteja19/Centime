@@ -1,0 +1,7 @@
+{
+  "data":[
+      {"name":"ravi","salary":5000,"expenditures":{"mobile":2000,"electricity":1000}},
+      {"name":"teja","salary":6000,"expenditures":{"mobile":1000,"electricity":700}}
+  ]
+  
+}

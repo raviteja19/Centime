@@ -1,0 +1,103 @@
+.navbar-inverse {
+    background-color: white;
+    border-color: #ccc;
+    color: black;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover
+{
+    color: black;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand
+{
+    color: black;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover
+{
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle .icon-bar
+{
+    background-color: black;
+}
+.navbar-inverse .navbar-nav>li>a
+{
+    color:#0e72a2;
+}
+.navbar-inverse .navbar-nav>li>a:hover
+{
+    color:#0e72a2;
+}
+.navbar-brand.applicationname
+{
+    color: #00c4b4 !important;
+    font-weight: 600;
+    margin-left: -18px;
+}
+.navbar-inverse {
+    background-color: #00c4b4 !important;
+    border-color: #ccc;
+    color: black;
+}
+.chartcontainer{
+    display: grid;
+    grid-template-columns: 5% 55% 40%;
+}
+.userinput{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
+.userinputbox{
+    margin: 10px;
+    height: 40px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
+.chartcontainer .options{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    margin: 10%;
+}
+.chartcontainer .options .labelicon{
+    margin: 10px;
+    background-color: #00c4b4;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shadowbox
+{
+    background: #ffffff !important;
+    border-radius: 4px !important;
+    box-shadow: 0 2px 4px 2px rgba(218, 218, 218, 0.5) !important;
+    -webkit-box-shadow:0 2px 4px 2px rgba(218, 218, 218, 0.5) !important;
+    -moz-box-shadow:0 2px 4px 2px rgba(218, 218, 218, 0.5) !important;
+}
+.labeloption{
+    display: grid;
+    grid-template-columns: 45% 5% 45%;
+    height: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.labeloption .add{
+    margin: 2px;
+    /* background-color: #00c4b4; */
+    border-radius: 5px;
+   cursor: pointer;
+
+}
+.addoptions{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.addlayout{
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 35% 65%;
+}
